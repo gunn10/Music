@@ -1,6 +1,6 @@
 package MusicPlayer;
 
-public class PremiumMusicPlayer implements Music, PremiumMusic,PlayList {
+public class PremiumMusicPlayer implements  PremiumMusic,PlayList {
     public void play() {
         System.out.println("Premium music player can play music");
     }
