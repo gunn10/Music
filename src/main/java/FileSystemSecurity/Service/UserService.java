@@ -10,7 +10,7 @@ public class UserService {
         this.userRepo = userRepo;
     }
 
-    void add(User user){
+    public void add(User user){
         userRepo.addUser(user);
     }
     public boolean find(User user){
