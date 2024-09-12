@@ -13,7 +13,7 @@ public class UserService {
     void add(User user){
         userRepo.addUser(user);
     }
-    boolean find(User user){
+    public boolean find(User user){
       return  userRepo.findUser(user);
 
     }
